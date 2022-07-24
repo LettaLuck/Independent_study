@@ -231,6 +231,13 @@ def print_numbers(n):
 
 # Урок 35 (Агрегация данных)
 # Реализуйте функцию join_numbers_from_range(), которая объединяет все числа из диапазона в строку
+def join_numbers_from_range(num1, num2):
+    i = num1
+    result = ''
+    while i <= num2:
+        result = result + str(i)
+        i += 1
+    return result
 
 
 # Урок 36 (Обход строк)
