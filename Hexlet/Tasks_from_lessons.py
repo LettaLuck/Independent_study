@@ -243,7 +243,14 @@ def join_numbers_from_range(num1, num2):
 # Урок 36 (Обход строк)
 # Реализуйте функцию my_substr(), которая извлекает из строки подстроку указанной длины. Она принимает на вход два аргумента (строку и длину) и возвращает подстроку, 
 # начиная с первого символа
+def my_substr(string, length):
+    result_string = ''
+    index = 0
+    while index < length:
+        result_string = result_string + string[index]
+        index = index + 1
 
+    return result_string
 
 
 # Урок 37 (Условия внутри тела цикла)
